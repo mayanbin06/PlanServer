@@ -1,0 +1,3 @@
+add /etc/init/mikeTest.conf
+initctl reload-configuration
+start mikeTest

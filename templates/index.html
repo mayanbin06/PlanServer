@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+</script>
+</head>
+<body>
+投注计划更新，刷新网页，对比助赢结果， 测试稳定性，准确性
+
+<p>大小计划</p>
+{% for d in data_daxiao %}
+<li> {{d}} </li>
+{% end %}
+
+<p>单双计划</p>
+{% for d in data_danshuang %}
+<li> {{d}} </li>
+{% end %}
+</body>
+</html>
